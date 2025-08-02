@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- ✅ Base Material3 Theme -->
+    <style name="Base.Theme.FoodNote" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- 🎨 Tambahkan warna custom jika perlu -->
+        <!-- <item name="colorPrimary">@color/purple_500</item> -->
+        <!-- <item name="colorSecondary">@color/teal_200</item> -->
+    </style>
+
+    <!-- ✅ Tema utama aplikasi -->
+    <style name="Theme.FoodNote" parent="Base.Theme.FoodNote" />
+</resources>
